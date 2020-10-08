@@ -1,6 +1,6 @@
 ## Варианты использования
 
-![(pict)]()
+![(pict)](https://github.com/NikitaMirosha/BarTraveler/blob/master/Documents/Diagrams/UseCase/UseCase.png)
 
 ## Содержание
 
