@@ -5,6 +5,6 @@
 3. [Sequences](https://github.com/NikitaMirosha/BarTraveler/blob/master/Documents/Diagrams/Sequences/sequence.md#1)
 4. [Conditions](https://github.com/NikitaMirosha/BarTraveler/blob/master/Documents/Diagrams/Conditions/conditions.md#2)
 5. [Classes]()
-6. [Deployments]()
+6. [Deployments](https://github.com/NikitaMirosha/BarTraveler/blob/master/Documents/Diagrams/Deployments/deployment.md)
 
 
