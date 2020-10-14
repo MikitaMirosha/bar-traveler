@@ -8,5 +8,5 @@
 ![pic](https://github.com/NikitaMirosha/BarTraveler/blob/master/Documents/Diagrams/Sequences/seq.png)
 
 ### 2 Просмотр координат местоположения <a name="2"></a>
-![pic]()
+![pic](https://github.com/NikitaMirosha/BarTraveler/blob/master/Documents/Diagrams/Sequences/seq2.png)
 
