@@ -4,7 +4,7 @@
 
 Web-application **BarTraveler** helps user to find the right bar
 
-[Code]()
+[Code]()  
 [Diagrams](https://github.com/NikitaMirosha/BarTraveler/blob/master/Documents/Diagrams/diaList.md)  
 [Mockups](https://github.com/NikitaMirosha/BarTraveler/blob/master/Documents/Mockups/myMockup.jpg)  
 [System requirements](https://github.com/NikitaMirosha/BarTraveler/blob/master/Documents/Requirements/SRS.md)  
