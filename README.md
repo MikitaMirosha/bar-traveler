@@ -1,8 +1,8 @@
-# BarTraveler 🍺
+# 🍺 BarTraveler 🍺
 
 [Software development and testing technologies subject]
 
-Web-application **BarTraveler** helps user to find the right bar 🍺
+Web-application **BarTraveler** helps user to find the right bar 
 
 [Code](https://github.com/NikitaMirosha/BarTraveler/blob/master/Documents/Code/BarTravelerApp.py)  
 [Diagrams](https://github.com/NikitaMirosha/BarTraveler/blob/master/Documents/Diagrams/diaList.md)  
