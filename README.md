@@ -1,4 +1,4 @@
-# 🍺 BarTraveler 🍺
+# BarTraveler 🍺
 
 [Software development and testing technologies subject]
 
