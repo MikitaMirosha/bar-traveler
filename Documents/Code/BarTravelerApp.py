@@ -47,16 +47,6 @@ class LuxuryBar(Map):
             return 'red'
 
 
-class RightBar(Map):
-    def color_change(self):
-        if price <= 4:
-            return 'green'
-        elif 5 <= price < 7:
-            return 'orange'
-        else:
-            return 'red'
-
-
 if __name__ == "__main__":
 
     cheap = CheapBar()
@@ -68,16 +58,23 @@ if __name__ == "__main__":
     luxury = LuxuryBar()
     luxury.price = price
 
-    right = RightBar()
-    right.price = price
-
-    m = folium.Map(location=[53.9000000, 27.5666700], zoom_start=12)
-    m.add_child(folium.LatLngPopup())
-    mc = MarkerCluster().add_to(m)
+    map = folium.Map(location = [53.9000000, 27.5666700], zoom_start = 12)
+    map.add_child(folium.LatLngPopup())
+    marker = MarkerCluster().add_to(map)
 
     for latitude, longitude, price, name, address in zip(latitude, longitude, price, name, address):
-        folium.CircleMarker(location=[latitude, longitude], radius=9,
-                            popup=str(name) + "<br>" + str(address) + "<br>" + str(price) + " BYN",
-                            fill_color=right.color_change(), color="gray", fill_opacity=0.9).add_to(mc)
+        folium.CircleMarker(location = [latitude, longitude], radius = 9,
+                            popup = str(name) + "<br>" + str(address) + "<br>" + str(price) + " BYN",
+                            fill_color = cheap.color_change(), color = "gray", fill_opacity = 0.9).add_to(marker)
 
-    m.save("pubs.html")
+    for latitude, longitude, price, name, address in zip(latitude, longitude, price, name, address):
+        folium.CircleMarker(location = [latitude, longitude], radius = 9,
+                            popup = str(name) + "<br>" + str(address) + "<br>" + str(price) + " BYN",
+                            fill_color = medium.color_change(), color = "gray", fill_opacity = 0.9).add_to(marker)
+
+    for latitude, longitude, price, name, address in zip(latitude, longitude, price, name, address):
+        folium.CircleMarker(location = [latitude, longitude], radius = 9,
+                            popup = str(name) + "<br>" + str(address) + "<br>" + str(price) + " BYN",
+                            fill_color = luxury.color_change(), color = "gray", fill_opacity = 0.9).add_to(marker)
+
+    map.save("map.html")
