@@ -78,7 +78,7 @@
 <a name="6"></a>
 ### 6. Представление результатов
 
-Результаты тестирования представлены в [таблице](https://github.com/Bulbash3r/ContactBook/blob/master/Testing/TestResult.md).
+Результаты тестирования представлены в [таблице](https://github.com/Daetwen/BarTraveler/blob/master/PR/PR.png).
 
 <a name="7"></a>
 ### 7. Выводы
